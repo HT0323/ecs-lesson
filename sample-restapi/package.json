@@ -1,0 +1,14 @@
+{
+    "name": "sample-restapi",
+    "version": "1.0.0",
+    "description": "sample application for rest api server",
+    "author": "kohekohe",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.16.1"
+    }
+}
