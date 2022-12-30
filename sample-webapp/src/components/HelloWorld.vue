@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import fetch from "node-fetch"
 
 export default {
   name: 'HelloWorld',
@@ -21,9 +21,8 @@ export default {
   ,
   mounted() {
     const BACKEND_URL = 'https://ecs-test.tk/api'
-    axios
-      .get(BACKEND_URL)
-      .then(response => (this.info = response.data))
+    fetch(BACKEND_URL)
+      .then((response) => (this.info = response.data))
   }
 }
 </script>
