@@ -13,7 +13,7 @@ env:
   WEBAPP_CONTAINER_NAME: ecs-sample-web-app
   BACKEND_CONTAINER_NAME: ecs-sample-backend
   RESTAPI_CONTAINER_NAME: ecs-sample-rest-api
-  WEBAPP_TAG: 1.0.0
+  WEBAPP_TAG: 1.0.1
   BACKEND_TAG: 1.0.0
   RESTAPI_TAG: 1.0.0
   SLACK_WEBHOOK: https://xxxxxxxx ##change this URL!!

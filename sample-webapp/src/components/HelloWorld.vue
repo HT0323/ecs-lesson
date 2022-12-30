@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>This application is Sample WebApp for CICD lesson.</h1>
+    <h1>This application is Sample WebApp for CICD lesson.(v1.0.1)</h1>
     <div>Response from REST API is... {{ info }}</div>
   </div>
 </template>
